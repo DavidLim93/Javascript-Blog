@@ -1,0 +1,100 @@
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: lightseagreen;
+    font-style: italic;
+   font-family: Baskerville, 'Times New Roman', serif;
+    
+  }
+  
+  .para {
+  margin: 40px;
+  text-align: justify;
+  text-justify: inter-word;
+  
+  }
+  
+  
+  html { 
+  background: url("./Northern_Lights.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  
+  
+  .wrapper {
+    background-color: lightcyan;
+    width: 600px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+  position: relative;
+  
+  
+  }
+  
+  
+  .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 5px solid;
+  border-color: beige;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  h2 {
+    text-align: center;
+    padding: 20px 0;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+  
+  }
+  
+  
+  #logo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+  
+  }
+  
+  #logo2 {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+  
+  }
+  
+  :visited { 
+    text-decoration: none; 
+    color: black; 
+   }
+  
+   #back {
+    position:absolute;
+  
+    bottom:0px;
+    right:0px;
+    height:20px;
+    width:auto;
+    padding:10px;
+    color:black;
+   }
