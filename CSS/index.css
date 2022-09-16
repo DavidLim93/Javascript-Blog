@@ -15,7 +15,7 @@ text-justify: inter-word;
 }
 
 
-html { 
+body { 
 background: url("./Pokeball.jpg") no-repeat center center fixed !important; 
 background-size: cover !important;
 background-repeat: no-repeat !important;
@@ -63,6 +63,7 @@ h2 {
   width: 30px;
   height: 30px;
   padding: 5px;
+
 
 }
 
@@ -113,7 +114,15 @@ h2 {
 
 :visited { 
   text-decoration: none; 
-  color: black; 
+  color: white; 
+ }
+
+ .navbar {
+  color: white;
+ }
+ 
+ .dropdown-item {
+  color: black;
  }
 
  
